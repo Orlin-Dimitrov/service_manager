@@ -1,0 +1,7 @@
+.panel-danger > .panel-heading {
+  background: #ff0000;
+  color: #FFF;
+}
+.panel-danger {
+ border-color: #ff0000;
+}

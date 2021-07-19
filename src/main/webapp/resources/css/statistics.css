@@ -1,0 +1,121 @@
+/* CSS for Statistics Data*/
+body { min-height:600px;
+ }
+
+/* Google Charts CSS for IDs*/
+#container #content {margin-top: 0px;}
+#wrapper {width: 100%; margin-top: 0px; }
+
+
+.container {
+	width: 98%; 
+	margin: auto;
+}
+
+.panel-statistics {
+	width: 100%; 
+	min-width:900px; 
+	min-height:600px
+}
+
+.panel-heading-statistics {
+	 font-weight: bold; 
+	 font-size:large;
+}
+
+.dashboard {
+	padding-left:0.5em; 
+	padding-right:0.5em;
+}
+
+.statistics-menu {
+	 padding-top:2em; 
+	 padding-left:1em; 
+	 padding-right:1em;
+}
+
+.btn-group > .dropdown-menu > li > a:hover,
+.btn-group > .dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.text-graphic-type {
+	font-weight:bold;
+}
+
+.text-graphic-type-colorful {
+	color: #008000;
+}
+
+.date-range {
+	padding-top:1em; 
+	padding-bottom:0px; 
+	margin-bottom:0px;
+	font-size: 125%;
+}
+
+.date-range-colorful {
+	color: #ff0000 ;
+	font-weight: bold;
+}
+
+.chart-area {
+	padding-top: 0px; 
+	margin-top: 0px;
+}
+
+.filter-range-well {
+	background-color:#f5f5f5;
+	margin-top:1em; margin-left:1em; 
+	margin-right:1em; 
+	border:solid 1px #808080;
+}
+
+.chose-year-btn {
+	padding-top:1em; 
+	padding-bottom:2em; 
+	padding-left:1em;  
+	padding-right:1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#container {width: 98%; margin:auto}
+#header {width: 100%; background: #09c332; margin-top: 0px; padding:5px 0px 2px 0px;}
+#header h4 {width: 100%; margin:auto; color: #FFFFFF;}
+*/

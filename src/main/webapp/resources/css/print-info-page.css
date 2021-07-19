@@ -1,0 +1,20 @@
+@media print {
+
+  .container {width:100%;}
+  
+  .tooltip {visibility: hidden;}
+  
+#Header, #Footer { display: none !important; }
+}
+
+.tooltip.top .tooltip-inner {
+    background-color:#fafafa;
+    color:black;
+    border: 1px solid black;
+}
+
+
+.tooltip.top .tooltip-arrow {
+      border-top-color: #black;
+    
+}

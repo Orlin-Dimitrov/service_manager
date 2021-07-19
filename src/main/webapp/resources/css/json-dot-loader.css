@@ -1,0 +1,50 @@
+
+/* DONT REMOVE THIS OR LOADER WILL SHIFT UD/DOWN */
+.modal({
+});
+    
+
+/* ALL LOADERS , DONT REMOVE THIS LOADER WILL DISSAPEAR*/
+.jsonLoader{
+}
+
+.jsonLoaderPlaceHight{
+	height:3em;
+}
+
+/* LOADER  */
+
+#jsonLoader span{
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+  background-color: #3498db;
+  margin: 0.5em 0.5em;
+  opacity: 0;
+}
+
+#jsonLoader span:nth-child(1){
+  animation: opacitychange 1s ease-in-out infinite;
+}
+
+#jsonLoader span:nth-child(2){
+  animation: opacitychange 1s ease-in-out 0.33s infinite;
+}
+
+#jsonLoader span:nth-child(3){
+  animation: opacitychange 1s ease-in-out 0.66s infinite;
+}
+
+@keyframes opacitychange{
+  0%, 100%{
+    opacity: 0;
+  }
+
+  60%{
+    opacity: 1;
+  }
+}
+
+    
+    

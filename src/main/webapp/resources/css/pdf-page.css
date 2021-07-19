@@ -1,0 +1,70 @@
+html, body{
+	height: 100%; /* change to 100vh if problems */
+	margin-left:15px; margin-right:15px; /* this is overridden by Bootstrap, use !important if want to change  */
+	padding:0px; 
+	
+}
+
+/* For padding if errors use table-condensed class on table*/
+
+th {
+	text-align: center;
+	vertical-align: middle !important; /* override bootstrap settings */	
+	
+}
+
+th.right {
+	padding-right: 1 !important;
+    padding-left: 1 !important;
+    text-align: right;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle !important;	
+}
+
+td.right {
+	font-weight: bold;	
+	text-align: right;
+	padding-right: 1 !important;
+    padding-left: 1 !important;
+}
+
+
+
+.panel-heading {
+	font-weight: bold;
+}
+
+.panel-body {
+
+	padding-bottom:0 !important;
+	
+}
+
+.panel-body p {
+	color: red;
+	font-weight: bold !important;
+	
+}
+
+
+#panelRequestInfo {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+#header {width: 70%; background: #09c332; margin-top: 0px; margin-bottom: 20px;padding:15px 0px 15px 15px;}
+#header h2 {width: 100%; margin:auto; color: #FFFFFF;}
+
+.panel-default .panel-heading {
+	background-color: #cce0ff !important;
+}
+
+
+
+
+

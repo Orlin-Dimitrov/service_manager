@@ -1,0 +1,183 @@
+/* CSS Style for Object(Item, Requester) Review*/
+
+.container {
+	/* USED */
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 98%; 
+	margin: auto;
+
+}
+
+
+/* Every Panel Options */
+.panel-heading {
+	font-weight: bold;
+}
+
+
+/* Outer Panel */
+.main-panel-review-object {
+	min-width: 320px;	
+	border-radius: 10px; 
+	border-width: 1px;
+	border-color: #636363;
+}
+
+
+/* Custom Panel for Object */
+.panel-object {
+	border-color: #636363;
+	border-radius: 1px;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;		
+}
+
+.panel-object .panel-heading {
+	border-color: #636363;
+	border-radius: 1px;
+	background-color: #cce0ff;
+}
+
+#panelObjectInfo {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Warning Panel */
+.panel-danger {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+.panel-danger .panel-body{
+	color: #ff0000;
+	font-weight: bold;	
+}
+
+.checkBoxConfirm {
+	padding-top:10px;
+}
+
+.modifiedObject {
+	color: #000000;
+	font-weight: bold; 
+	margin-top: 10px; 
+}
+
+/* Navigation buttons */
+.btn-left {
+	/* USED */
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 15px;	
+}
+
+.btn-right {
+	/* USED */
+	margin-top: 10px;
+	margin-bottom: 15px;  
+	padding-right: 15px;
+}
+
+.btn-pdf-print {
+	/* USED */
+
+  margin-bottom:5px;
+	
+}
+
+
+
+/* Table for Object */
+.active-object {
+	color: #ff0000; 
+}
+
+.table > thead > tr > th{
+    border-right: 1px solid #636363 ;
+    border-bottom: 1px solid #636363 ;
+}
+
+.table > tbody > tr > td{
+    border-right: 1px solid #636363 ;
+    border-bottom: 1px solid #636363 ;
+}
+
+.table > thead > tr > th:last-of-type {
+    border-right: 0px;    
+}
+
+.table > tbody > tr:last-of-type >td{   
+    border-bottom: 0px  ;    
+}
+
+.table > tbody > tr > td:last-of-type {
+    border-right: 0px ;   
+}
+
+th {
+	text-align: center;	
+}
+
+th.right {
+    text-align: right;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle !important;	
+}
+
+td.right {
+	font-weight: bold;	
+	text-align: right;
+	vertical-align: middle !important;	
+}
+
+
+/* For SMALL Height screens */
+@media only screen and (max-width: 767px) {
+	.main-panel-review-object  {
+	/* USED */
+		width: 90vw;	
+	}
+
+	.panel-object, .panel-danger {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	
+	/* navigation buttons */
+	.btn-left {
+		/* USED */
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 0px;	
+	}
+
+	.btn-right {
+		/* USED */
+		margin-top: 10px;
+		margin-bottom: 0px;  
+		padding-right: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

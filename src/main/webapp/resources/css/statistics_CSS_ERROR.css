@@ -1,0 +1,14 @@
+
+
+body {  
+	min-height:600px;
+}
+	
+.btn-group > .dropdown-menu > li > a:hover,
+.btn-group > .dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+.panel-primary{
+	width:100%;
+}

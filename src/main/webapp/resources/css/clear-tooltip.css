@@ -1,0 +1,13 @@
+
+
+.tooltip.right .tooltip-inner {
+    background-color:#fafafa;
+    color:black;
+    border: 1px solid black;
+}
+
+
+.tooltip.right .tooltip-arrow {
+      border-top-color: #black;
+    
+}

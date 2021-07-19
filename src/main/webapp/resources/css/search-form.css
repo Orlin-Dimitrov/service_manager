@@ -1,0 +1,123 @@
+/* CSS Style for Search Form     !!! NOT USED*/
+
+.container {
+	/* USED */
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.labelNormal {
+	/* USED */
+	font-weight: normal;
+}
+
+/* error text */
+.error {
+	/* USED */
+	color: #ff0000;
+}
+
+/* Custom colors */
+.add-color {
+	/* USED */
+	border-color:#337ab7;
+}
+
+
+/* Panels */
+.panel-primary {
+	/* USED */
+	min-width: 320px;
+}
+
+.panel-body {
+	/* USED */
+	padding-top: 30px;
+}
+
+.form-group-custom{
+	/* USED */
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* custom padding left/right zero */
+.pad-left-zero {
+	/* USED */
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* internal panel for item in service/operation */
+.item-panel {
+	/* USED */
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.item-panel > .panel-default{
+	/* USED */
+	min-width: 290px;
+	border-radius: 10px; 
+	margin-bottom:10px;
+}
+
+
+.reset-btn {
+		/* USED */
+	margin-bottom: 25px;
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+/* Tool tip */
+.tooltip.top .tooltip-inner {
+    background-color:#fafafa;
+    color:black;
+    border: 1px solid black;
+}
+
+
+.tooltip.top .tooltip-arrow {
+      border-top-color: #black;
+    
+}
+
+.jsonLoaderPlace{
+	/* USED */
+	margin-top: 10px;
+}
+
+/* navigation buttons */
+.btn-right {
+	/* USED */
+	margin-top: 10px;
+	margin-bottom: 15px;  
+	padding-right: 30px;
+}
+
+/* For SMALL Height screens */
+@media only screen and (max-width: 767px) {
+	.panel-primary {
+	/* USED */
+		width: 90vw;		
+	}
+
+	/* navigation buttons */
+	.btn-right {
+		/* USED */
+		margin-top: 10px;
+		margin-bottom: 15px;  
+		padding-right: 15px;
+	}
+}
+
+
+
+
+
+
+

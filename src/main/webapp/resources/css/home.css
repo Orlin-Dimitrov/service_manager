@@ -1,0 +1,56 @@
+
+
+/* Welcome Panel ------------- */
+.panel-welcome {
+	border-color: #8a8a8a;
+	border-width: 1px;
+	min-width: 380px;
+}
+
+.panel-welcome-heading {
+	background: #cce0ff;
+	border-color: #8a8a8a;
+}
+
+.panel-title {
+	text-align:center;
+	font-weight: bold; 
+	color:#000000;
+}
+
+.row-padding {
+	padding-bottom: 10px;
+}
+
+.user-info-text {
+	font-weight: bold;
+}
+
+.shadow {
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.45);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.45);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.45);
+}
+
+.custom-footer {
+	width: 100%; 
+	background: #09c332; 
+	margin-top: 0px; 
+	padding:5px 0px 2px 0px;
+}
+
+.app-name {
+	width: 100%; 
+	margin:auto; 
+	color: #FFFFFF;
+	font-size: 125%;
+	text-align: center;
+}
+
+.author {
+	font-size: 100%;
+	text-align: center; 
+	margin-bottom:0px;
+	padding-botom:0px; 
+	color: #ffffff;
+}

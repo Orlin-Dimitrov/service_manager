@@ -1,0 +1,302 @@
+/* CSS Style for Object(Item, Requester) Form*/
+
+.container {
+	/* USED */
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.labelNormal {
+	/* USED */
+	font-weight: normal;
+}
+
+/* error text */
+.error {
+	/* USED */
+	color: #ff0000;
+}
+
+/* Custom colors */
+.add-color {
+	/* USED */
+	border-color:#337ab7;
+}
+
+.edit-color {
+	/* USED */
+	border-color: #efbc4d;
+}
+
+.edit-color-heading {
+	/* USED */
+	background: #efbc4d;
+	color: #000000;
+}
+
+.delete-color {
+	/* USED */
+	border-color: #ff0000;
+}
+
+.delete-color-heading {
+	/* USED */
+	background: #ff0000;
+	color: #ffffff;
+}
+
+.grey-color {
+	border-color: #8a8a8a;
+}
+
+.grey-color-heading {
+  	background: #8a8a8a;
+  	color: #ffffff;
+}
+
+.green-color {
+	border-color: #09c332;
+}
+.green-color-heading {
+	background: #09c332;
+	color: #ffffff;
+}
+
+
+
+/* Panels */
+.panel-primary, .panel-edit, .panel-delete, .panel-gray, .panel-green {
+	/* USED */
+	min-width: 320px;
+}
+
+.panel-body {
+	/* USED */
+	padding-top: 30px;
+}
+
+.form-group-custom{
+	/* USED */
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* custom padding left/right zero */
+.pad-left-zero {
+	/* USED */
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* internal panel  */
+.item-panel {
+	/* USED */
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.item-panel > .panel-default{
+	/* USED */
+	min-width: 290px;
+	border-radius: 10px; 
+	margin-bottom:10px;
+}
+
+
+
+
+/* navigation buttons */
+.btn-left {
+	/* USED */
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 15px;	
+}
+
+.btn-right {
+	/* USED */
+	margin-top: 10px;
+	margin-bottom: 15px;  
+	padding-right: 30px;
+}
+
+.btn-center {
+	/* USED */
+	margin-top: 15px;
+	margin-bottom: 15px;  
+}
+
+
+/* Custom button Animation */
+.customButton {
+	/* USED */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.customButton:hover {
+	/* USED */
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #ffffff;
+  transform: translateY(-7px);
+}
+
+
+.jsonLoaderPlace{
+	/* USED */
+	margin-top: 10px;
+}
+
+/* Search items */
+.reset-btn {
+		/* USED */
+	margin-bottom: 25px;
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+/* Tool tip */
+.tooltip.top .tooltip-inner {
+    background-color:#fafafa;
+    color:black;
+    border: 1px solid black;
+}
+
+.tooltip.top .tooltip-arrow {
+      border-top-color: #black;
+    
+}
+
+
+/* User management */
+
+.user-text {
+	font-size: 125%;
+	background-color: #f3f3f3;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:0px !important;
+	margin-right:0px !important;
+
+	font-weight: bold;
+}
+
+.user-text .red {
+	color: #ff0000; 
+}
+
+.user-text .green {
+	color: #09c332;; 
+}
+
+.user-text .blue {
+	color: #0000ff; 
+}
+
+/*  User management - change password */
+.user-confirm-password-last-field {
+	margin-bottom: 15px;
+}
+
+.alert-success {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-left: 0px !important;
+	margin-right: 0px !important;	
+}
+
+/*  User management - delete user and disconnect */
+.user-delete-input {
+	padding-top:10px;
+}
+
+.alert-danger {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	color: #000000;
+	font-size: 125%;
+}
+
+.glyphicon-warning-sign{
+	color: #ff0000;
+}
+
+.last-login-date-time {
+	white-space: nowrap; 
+}
+
+/*  User management - access level */
+.access-level-group {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.access-level-group .access-label {
+	font-size: 125%;	
+}
+
+.access-level-group .radio-inline {
+	font-weight: bold;
+}
+
+.access-level-group .error{
+	margin-top: 10px;
+}
+
+.btn-acclvl{
+	color: #000000;
+}
+
+
+
+/* Add User */
+.before-alert-success {
+	margin-bottom: 15px;
+}
+
+/* For SMALL Height screens */
+@media only screen and (max-width: 767px) {
+	.panel-primary, .panel-edit, .panel-delete, .panel-gray, .panel-green  {
+	/* USED */
+		width: 90vw;		
+	}
+
+	
+	/* navigation buttons */
+	.btn-left {
+		/* USED */
+		margin-top: 10px;
+		margin-bottom: 15px;
+		margin-left: 0px;	
+	}
+
+	.btn-right {
+		/* USED */
+		margin-top: 10px;
+		margin-bottom: 15px;  
+		padding-right: 15px;
+	}
+	
+	.btn-center {
+		/* USED */
+		margin-top: 15px;
+		margin-bottom: 15px;  
+	}
+}
+
+
+
+
+
+
+

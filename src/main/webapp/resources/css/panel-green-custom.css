@@ -1,0 +1,7 @@
+.panel-grey > .panel-heading {
+  background: #09c332;
+  color: #fff;
+}
+.panel-grey {
+ border-color: #09c332;
+}

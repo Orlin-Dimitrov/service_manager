@@ -1,0 +1,61 @@
+
+/* ALL Result Panels ----------------*/
+.panel{
+	min-width: 320px;
+}
+
+.panel-body {
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+.well-result{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+/* SUCSESS Result Panel ------------- */
+.panel-green {
+	border-color: #008000;
+}
+
+.panel-green-heading {
+	background: #008000;
+	color: #ffffff;
+}
+
+.green-text {
+	color:#008000;
+}
+
+
+/* ERROR Result Panel --------------*/
+.panel-red {
+	border-color: #ff0000;
+}
+
+.panel-red-heading {
+	background: #ff0000;
+	color: #ffffff;
+}
+
+.red-text {
+	color:#ff0000;
+}
+
+/* Centered button */
+.btn-center {
+	/* USED */
+	margin-top: 10px;
+	margin-bottom: 0px;  
+}
+
+/* For SMALL Height screens */
+@media only screen and (max-width: 767px) {
+	.panel-green, .panel-red  {
+	/* USED */
+		width: 90vw;		
+	}
+}

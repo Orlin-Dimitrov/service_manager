@@ -1,0 +1,20 @@
+html, body{
+	height: 100%; /* remove if errors */
+	margin-left:15px; margin-right:15px; 
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+
+
+
+
+ 
+#wrapper {width: 100%; margin-top: 0px; }
+#header {width: 100%; background: #09c332; margin-top: 0px; padding:5px 0px 2px 0px;}
+#header h4 {width: 100%; margin:auto; color: #FFFFFF;}
+#container {width: 98%; margin:auto}
+
+#container #content {margin-top: 0px;}
+

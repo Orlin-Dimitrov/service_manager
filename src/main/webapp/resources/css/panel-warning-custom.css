@@ -1,0 +1,7 @@
+.panel-warning > .panel-heading {
+  background: #efbc4d;
+  color: #000;
+}
+.panel-warning {
+ border-color: #efbc4d;
+}

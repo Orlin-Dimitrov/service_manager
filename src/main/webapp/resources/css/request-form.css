@@ -1,0 +1,128 @@
+/* CSS Style for Request Form*/
+
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.labelNormal {
+	font-weight: normal;
+}
+
+.panel-primary {
+	min-width: 320px;
+}
+
+
+/* Admin Edit panel*/
+.panel-danger {
+	border-color: #ff0000;
+	min-width: 320px;
+}
+
+.panel-danger > .panel-heading {
+  background: #ff0000;
+  color: #ffffff;
+}
+/* Admin Edit panel END*/
+
+.panel-body {
+	padding-top: 30px;	
+}
+
+.panel-body .internal-padding {
+	padding-left:15px;
+}
+
+.form-group-custom{
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* custom padding left/right zero */
+.pad-left-zero {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* internal panel for item in service/operation */
+.item-panel {
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.item-panel > .panel-default{
+	border-color:#337ab7;
+		min-width: 290px;
+}
+
+
+/* navigation buttons */
+.btn-left {
+	margin-top: 10px;		
+	margin-bottom: 15px;	
+}
+
+.btn-right {
+	margin-top: 10px;
+	margin-bottom: 15px;  
+	padding-right: 30px;
+}
+
+/* error text */
+.error {
+	color: #ff0000;
+}
+
+/* for displayed text that can't be modified */
+.notModifiebleText{
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.notModifiebleGroup {
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+/* For SMALL Height screens */
+@media only screen and (max-width: 767px) {
+	.panel-primary {
+		width: 90vw;		
+	}
+	
+	.panel-danger {
+	width: 90vw;
+	}
+	
+	.panel-body .internal-padding {
+	padding-left:0px;
+	}
+	
+		/* navigation buttons */
+	.btn-left {
+		/* USED */
+		margin-top: 10px;
+		margin-bottom: 15px;
+		margin-left: 0px;	
+	}
+
+	.btn-right {
+		/* USED */
+		margin-top: 10px;
+		margin-bottom: 15px;  
+		padding-right: 15px;
+	}
+}
+
+
+
+
+
+
+
