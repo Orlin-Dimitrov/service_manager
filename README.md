@@ -1,2 +1,2 @@
 # service_manager
-Sampleproject for service manager
+Sample project for service manager
